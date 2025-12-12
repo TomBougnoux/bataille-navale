@@ -1,0 +1,89 @@
+.game-container {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    margin-top: 20px;
+    position: relative;
+}
+
+.legend {
+    padding: 20px;
+    border: 2px solid #333;
+    min-width: 220px;
+    position: absolute;
+    left: -450px;
+    background-color: grey;
+    font-size: 18px;
+}
+
+.legend-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.legend-item {
+    margin-bottom: 25px;
+}
+
+.legend-item-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.legend-boxes {
+    display: flex;
+    gap: 3px;
+}
+
+.legend-box {
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.legend-text {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.header-cell {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.empty-cell {
+    display: inline-block;
+    width: 30px;
+}
+
+.grid-button {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.cell-wrapper {
+    display: inline-block;
+}
+
+.board-title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.reset-form {
+    margin-top: 20px;
+}
+
+.reset-btn {
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
